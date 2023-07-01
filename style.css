@@ -1,0 +1,111 @@
+
+img {
+    width: 100px;
+    height: 100px;
+    border-color: #000000;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    align-items: center;
+    background-color: #4f0080;
+    color: white;
+    padding: 10px;
+}
+header h1 {
+    margin-left: 50px;
+}
+footer {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #4f0080;
+    color: white;
+    padding: 10px;
+}
+
+
+
+section {
+    display: flex;
+    padding: 20px;
+    width: auto;
+    height: auto;
+    background-color: #f1f1f1;
+  }
+
+  .tab {
+    display: inline-block;
+    overflow: hidden;
+    border: 1px solid #000000;
+    background-color: #ffffff;
+  }
+
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+
+  .tab button:hover {
+    background-color: #ddd;
+  }
+
+  .tabcontent {
+    display: flex;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+
+section {
+    display: block;
+}
+
+table {
+    border: 2px solid;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100%;
+    vertical-align: middle;
+
+}
+
+thead {
+    background-color: #333;
+    color: white;
+    font-size: 0.875rem;
+	text-transform: uppercase;
+	letter-spacing: 2%;
+ }
+
+ tbody th {
+    padding: 10px;
+    background-color: #36c;
+    color: #fff;
+    text-align: left;
+  }
+
+tr:hover {background-color: rgb(168, 238, 159);}
+
+
+button:hover {
+    border: 1px solid;
+}
+
+
+button {
+border: none;
+background: none;
+}
